@@ -6,14 +6,14 @@ def get_player_choice(player_num):
 def determine_winner(player1_choice, player2_choice):
     if player1_choice == player2_choice:  # Fixed missing colon
         return "It's a tie!"
-elif (player1_choice == "rock" and player2_choice == "scissors") or \
+    elif (player1_choice == "rock" and player2_choice == "scissors") or \
          (player1_choice == "paper" and player2_choice == "rock") or \
          (player1_choice == "scissors" and player2_choice == "paper"):
         return "Player 1 wins!"
     else:
-    return "Player 2 wins!"  # Fixed incorrect return value
+      return "Player 2 wins!"  # Fixed incorrect return value
 
->>>>>>> fith-branch
+
 def play_game():  # Fixed missing parentheses
     player1_choice = get_player_choice(1)
     player2_choice = get_player_choice(2)
