@@ -13,7 +13,7 @@ elif (player1_choice == "rock" and player2_choice == "scissors") or \
     else:
     return "Player 2 wins!"  # Fixed incorrect return value
 
-
+>>>>>>> fith-branch
 def play_game():  # Fixed missing parentheses
     player1_choice = get_player_choice(1)
     player2_choice = get_player_choice(2)
