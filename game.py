@@ -4,7 +4,7 @@ def get_player_choice(player_num):
     return choice
 
 def determine_winner(player1_choice, player2_choice):
-    if player1_choice == player2_choice  #
+    if player1_choice == player2_choice:  # Fixed missing colon
         return "It's a tie!"
     elif (player1_choice == "rock" and player2_choice == "scissors") or \  # 
          (player1_choice == "paper" and player2_choice == "rock") or \
