@@ -12,6 +12,7 @@ def determine_winner(player1_choice, player2_choice):
     else:
         return "Player 1 wins!"  #
 
+
 def play_game():  # Fixed missing parentheses
     player1_choice = get_player_choice(1)
     player2_choice = get_player_choice(2)
