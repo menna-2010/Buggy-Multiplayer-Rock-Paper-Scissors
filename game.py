@@ -10,7 +10,8 @@ def determine_winner(player1_choice, player2_choice):
          (player1_choice == "scissors" and player2_choice == "paper"):
         return "Player 1 wins!"
     else:
-        return "Player 1 wins!"  #
+    return "Player 2 wins!"  # Fixed incorrect return value
+
 
 def play_game  # 
     player1_choice = get_player_choice(1)
