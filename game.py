@@ -11,7 +11,8 @@ elif (player1_choice == "rock" and player2_choice == "scissors") or \
          (player1_choice == "scissors" and player2_choice == "paper"):
         return "Player 1 wins!"
     else:
-        return "Player 1 wins!"  #
+    return "Player 2 wins!"  # Fixed incorrect return value
+
 
 def play_game():  # Fixed missing parentheses
     player1_choice = get_player_choice(1)
